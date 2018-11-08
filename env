@@ -1,0 +1,5 @@
+TEMPLATES_DIR=/remote/path/to/templates/dir
+STATIC_ASSETS_DIR=/remote/path/to/static/dir
+TLS_CERT_PATH=/remote/path/to/cert.pem
+TLS_KEY_PATH=/remote/path/to/privkey.pem
+

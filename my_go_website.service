@@ -1,0 +1,16 @@
+[Unit]
+Description=my_go_website
+After=network.target auditd.service
+
+[Service]
+EnvironmentFile=/var/www/env
+ExecStart=/var/www/my_go_website
+ExecReload=/var/www/my_go_website
+KillMode=process
+Restart=always
+RestartPreventExitStatus=255
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
+
